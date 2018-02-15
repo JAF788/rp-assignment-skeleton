@@ -13,7 +13,7 @@ public class ViewTest {
 	@SuppressWarnings("unused")
 	private static void visualiseTest() throws ClassNotFoundException {
 		Ex2Tests tests = new Ex2Tests();
-		RobotTest<?> test = tests.createSlowTest();
+		RobotTest<?> test = tests.createFastTest();
 		TestViewer demo = new TestViewer(test, test.getSimulation());
 		demo.run();
 	}
